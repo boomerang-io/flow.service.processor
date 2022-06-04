@@ -16,7 +16,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.3.0.RELEASE</version>
-		<relativePath />
+		<relativePath/>
 	</parent>
 
 	<properties>
@@ -24,8 +24,8 @@
 		<java.version>11</java.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
-		<http.proxyHost />
-		<http.proxyPort />
+		<http.proxyHost/>
+		<http.proxyPort/>
 		<jacoco.out.paths>${project.build.directory}</jacoco.out.paths>
 		<sonar.jacoco.reportPath>${jacoco.out.path}/jacoco.exec</sonar.jacoco.reportPath>
 		<jacoco.version>0.8.2</jacoco.version>
@@ -134,7 +134,7 @@
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>28.0-jre</version>
+			<version>31.1-jre</version>
 		</dependency>
 		<dependency>
 			<groupId>org.jgrapht</groupId>
